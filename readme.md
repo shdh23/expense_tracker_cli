@@ -76,18 +76,18 @@ python tracker.py export --filename my_expenses.csv
 📂 Project Structure
 
 expense-tracker-cli/
-├── tracker.py                 # Main CLI entry point
-├── data/
-│   ├── storage.py             # Load/save expenses & budgets
-│   ├── expenses.json          # Data storage
-│   └── budget.json            # Monthly budget data
-├── commands/
-│   ├── add.py
-│   ├── view.py
-│   ├── update.py
-│   ├── delete.py
-│   ├── summary.py
-│   ├── set_budget.py
+├── tracker.py                 # Main CLI entry point  
+├── data/  
+│   ├── storage.py             # Load/save expenses & budgets  
+│   ├── expenses.json          # Data storage  
+│   └── budget.json            # Monthly budget data  
+├── commands/  
+│   ├── add.py  
+│   ├── view.py  
+│   ├── update.py  
+│   ├── delete.py  
+│   ├── summary.py  
+│   ├── set_budget.py  
 │   └── export.py
 
 ✅ Validations
